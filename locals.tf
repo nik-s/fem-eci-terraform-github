@@ -5,7 +5,7 @@ locals {
       gitignore_template = "Terraform"
       name               = "fem-eci-terraform-tfe"
       topics             = ["frontend-masters", "terraform"]
-      visibility         = "private"
+      visibility         = "public"
     }
 
     "fem-eci-terraform-github" = {
@@ -13,7 +13,7 @@ locals {
       gitignore_template = "Terraform"
       name               = "fem-eci-terraform-github"
       topics             = ["frontend-masters", "terraform"]
-      visibility         = "private"
+      visibility         = "public"
     }
   }
 }
